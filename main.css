@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(5,1,17,1) 47%, rgba(51,33,36,1) 75%, rgba(57,38,38,1) 81%, rgba(92,73,60,1) 88%, rgba(140,121,91,1) 100%);
+    padding: 25px 0; 
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline-block; 
+    margin-left: 16px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{ 
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 500px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    
+}
+
+.logo-grifesport {
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 2px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section {
+    margin-top: 45px;
+}
+
+.container-lacoste{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.articles-card{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+article {
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.articles-card article {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    padding-bottom: 15px;
+}
+
+.articles-card article:hover {
+    box-shadow: 0 4px 8px #35312a7e;
+
+}
+
+article img{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    color: white;
+    border-radius: 8px; 
+    padding: 10px 20px;
+    margin-top: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #00ff444b;
+    color: rgb(0, 0, 0);
+}
+
+.product-text {
+    font-size: 25px;
+}
+.money-card {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    margin-top: 507px;
+    text-align: center;
+    font-size: 15px;
+    
+}
